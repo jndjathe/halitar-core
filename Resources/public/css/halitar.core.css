@@ -1,0 +1,16 @@
+
+.nopadding {
+    
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+table {
+
+    width: 100%;
+}
+
+table tr td {
+
+    width: 15%;
+}
