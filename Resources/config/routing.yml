@@ -1,0 +1,7 @@
+fos_js_routing:
+    resource: "@FOSJsRoutingBundle/Resources/config/routing/routing.xml"
+
+halitar_core:
+    resource: "@HalitarCoreBundle/Controller/"
+    type:     annotation
+    prefix:   /halitar-core
