@@ -41,6 +41,8 @@ imports:
 
 Ajouter dans le fichier "app/config/routing.yml"
 
+```
 halitar_core_routing:
     resource: "@HalitarCoreBundle/Resources/config/routing.yml"
     prefix:   /
+```
