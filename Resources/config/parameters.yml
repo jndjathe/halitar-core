@@ -1,0 +1,3 @@
+parameters:
+    # nombre de lignes retourner par requete
+    query_limit: 10

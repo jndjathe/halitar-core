@@ -36,6 +36,7 @@ Importer les services dans le fichier "app/config/config.yml"
 
 ```
 imports:
+    - { resource: "@HalitarCoreBundle/Resources/config/parameters.yml" }
     - { resource: "@HalitarCoreBundle/Resources/config/services.yml" }
 ```
 
