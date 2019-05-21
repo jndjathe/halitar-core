@@ -1,0 +1,9 @@
+*.php linguist-detectable=true
+*.js linguist-detectable=false
+*.html linguist-detectable=false
+*.xml linguist-detectable=false
+*.yml linguist-detectable=false
+*.css linguist-detectable=false
+*.twig linguist-detectable=false
+*.json linguist-detectable=false
+*.md linguist-detectable=false

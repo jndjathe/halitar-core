@@ -1,0 +1,13 @@
+services:
+    halitar.parent.manager:
+        abstract: true
+        class: Halitar\CoreBundle\Manager\AbstractManager
+        arguments:
+            - "@doctrine.orm.entity_manager"
+            - "%query_limit%"
+
+    halitar.base.manager:
+        class: Halitar\CoreBundle\Manager\BaseManager
+        parent: halitar.parent.manager
+        tags:
+            -  { name: halitar.manager }
